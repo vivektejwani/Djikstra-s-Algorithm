@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB788918170C251200853811 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AB788917170C251200853811 /* main.cpp */; };
+		AB78891A170C251200853811 /* Djikstra_s_Algorithm.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = AB788919170C251200853811 /* Djikstra_s_Algorithm.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB788911170C251200853811 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				AB78891A170C251200853811 /* Djikstra_s_Algorithm.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AB788913170C251200853811 /* Djikstra's Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Djikstra's Algorithm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB788917170C251200853811 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		AB788919170C251200853811 /* Djikstra_s_Algorithm.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Djikstra_s_Algorithm.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB788910170C251200853811 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB788908170C251200853811 = {
+			isa = PBXGroup;
+			children = (
+				AB788916170C251200853811 /* Djikstra's Algorithm */,
+				AB788914170C251200853811 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB788914170C251200853811 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB788913170C251200853811 /* Djikstra's Algorithm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB788916170C251200853811 /* Djikstra's Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				AB788917170C251200853811 /* main.cpp */,
+				AB788919170C251200853811 /* Djikstra_s_Algorithm.1 */,
+			);
+			path = "Djikstra's Algorithm";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB788912170C251200853811 /* Djikstra's Algorithm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB78891D170C251200853811 /* Build configuration list for PBXNativeTarget "Djikstra's Algorithm" */;
+			buildPhases = (
+				AB78890F170C251200853811 /* Sources */,
+				AB788910170C251200853811 /* Frameworks */,
+				AB788911170C251200853811 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Djikstra's Algorithm";
+			productName = "Djikstra's Algorithm";
+			productReference = AB788913170C251200853811 /* Djikstra's Algorithm */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB78890A170C251200853811 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = AB78890D170C251200853811 /* Build configuration list for PBXProject "Djikstra's Algorithm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB788908170C251200853811;
+			productRefGroup = AB788914170C251200853811 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB788912170C251200853811 /* Djikstra's Algorithm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB78890F170C251200853811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB788918170C251200853811 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AB78891B170C251200853811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		AB78891C170C251200853811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		AB78891E170C251200853811 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB78891F170C251200853811 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB78890D170C251200853811 /* Build configuration list for PBXProject "Djikstra's Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB78891B170C251200853811 /* Debug */,
+				AB78891C170C251200853811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB78891D170C251200853811 /* Build configuration list for PBXNativeTarget "Djikstra's Algorithm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB78891E170C251200853811 /* Debug */,
+				AB78891F170C251200853811 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB78890A170C251200853811 /* Project object */;
+}
